@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title {
+    color: rgb(8, 6, 6);
+}
+
+.ada {
+    color: black;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.ada:hover {
+    color: red;
+    font-size: 15px;
+}
+
+.menu {
+    font-size: 30px;
+}
