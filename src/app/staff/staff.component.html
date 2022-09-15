@@ -1,0 +1,17 @@
+<div class="ada">
+  <div class="card editCard" style="width: 18rem;" *ngFor= "let post of posts">
+    <img [src]="post.image">
+    <div class="card-body">
+      <h5 class="card-title">{{post.name}}</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Specie: {{post.species}}</li>
+      <li class="list-group-item">Gender: {{post.gender}}</li>
+      <li class="list-group-item">House: {{post.house}}</li>
+      <li class="list-group-item">Age: {{post.age}}</li>
+    </ul>
+  </div>
+</div>
+
+
+   
